@@ -11,29 +11,57 @@
     }
 
     h1.j {
+    	border: 10px solid #5d5d5d;
     	text-align: center;
-    	border-color: #ffffff;
-    	border-width: 10px;
     	color: #ffffff;
     	font-size: 50px;
     }
 
     .rectangle1 {
-    	width: 1000px;
+    	width: 68.4%;
     	height: 1000px;
     	background-color: black;
-    	margin: auto;
+    	display: inline-block;
     }
 
     .rectangle2 {
-    	width: 1000px;
-    	height: 100px;
-    	color: white;
+    	width: 25%;
+    	height: 800px;
+    	background-color: black;
+    	margin-right: auto;
+    	display: inline-block;
+    	vertical-align: top;
+    }
+
+
+    .devmenu {
+    	width: 350px;
+    	height: 200px;
+    	background-color: #1d1d1d;
+    	margin-right: auto;
+    	vertical-align: top;
+    	display: inline-block;
+    }
+
+    .moreadevs {
+    	width: 350px;
+    	height: 200px;
+    	background-color: #2d2d2d;
+    	margin-left: auto;
+    	vertical-align: top;
+    	display: inline-block;
     }
 
     p.r1 {
     	color: white;
     	padding: 20px;
+    }
+
+    p.devs {
+    	color: white;
+    	font-size: 20px;
+    	text-align: center;
+    	border: 5px solid #4d4d4d;
     }
 
     p.r2 {
@@ -42,41 +70,88 @@
     	font: bold;
     }
 
-    img.left {
-    	margin-left: auto; /* images to left */
-    }
-
-    img.right {
-    	margin-right: auto; /* images to right */
-    }
-
-    p.bio {
+    p.n {
     	color: white;
     	font: bold;
-    	font-size: 16px;
+    	font-size: 18px;
     	text-align: center;
     }
 
     p.ndev {
     	color: #ff0000;
-    	font-size: 35;
+    	font-size: 20px;
     	font-weight: bold;
-    	padding-left: 35px;
+    	text-align: center;
     }
+
+    p.gry {
+    	color: #008bff;
+    	font-size: 20px;
+    	text-align: center;
+    	font-weight: bold;
+    }
+
+    p.at {
+    	color: white;
+    	font: bold;
+    	font-size: 18px;
+    	text-align: center;
+    	display: inline-block;
+    }
+
   </style>
 
 </head>
 
 <body>
   <h1 class="j"> FOGX Studios MainPage</h1>
-  <div class="rectangle1">
-  	<img src="assets/baner.png">
-  	<hr>
-  	<p class="bio">FOGX Studios to jest studio dewelopujące gry lub programy komputerowe, studio zostało założone w 2023r.</p>
-  	
-  	<p class="ndev">DEWELOPERZY:</p>
+
+  <div class="rectangle2">
+
+  		<h1 class="j">Strony:</h1>
+  		<hr>
+  		<p class="gry"><a target="_blank" href="https://fogx-studios.itch.io">Nasza strona Itch.io</a></p>
+  		<hr>
+  		<p class="gry"><a target="_blank" href="https://forms.gle/RrKfsS2isMgC6Ysg7">Rekrutacja</a></p>
+  		<hr>
+  		<p class="gry"><a target="_blank" href="https://www.youtube.com/">Lista Naszych Gier</a></p>
+  		<hr>
+  		
 
   </div>
+
+  <div class="rectangle1">
+  			<img src="assets/baner.png">
+  			<hr>
+  			<p class="n">FOGX Studios to jest studio dewelopujące gry lub programy komputerowe, studio zostało założone w 2023r przez GlitchFoga.</p>
+  			<hr>
+  			<div class="devmenu">
+  				
+
+  				<p class="ndev">Deweloperzy:</p>
+  				<div class="devcon">
+
+  					<p class="devs">GlitchFOG</p>
+  					
+  				</div>
+  			</div>
+  			<div class="moreadevs">
+  				
+  				<p class="ndev">O Deweloperach:</p>
+  				<p class="devs">GlitchFog:Programista(((C#,Python))), 3D Designer, Art Designer
+
+  			</div>
+
+  			<hr>
+
+  			<h1 class="j">Wypuszczone Programy:</h1>
+  			<p class="gry">Enough Noter 1.5</p>
+  			<p class="gry">Untitled Flying Game (beta)</p>
+  			<p class="gry">Touching Grass Expierence</p>
+  			<p class="gry">Gogl Chrome</p>
+  			
+  		</div>
+  
 </body>
 
 </html>
