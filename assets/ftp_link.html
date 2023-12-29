@@ -1,0 +1,34 @@
+<!-- strona1.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecter</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Ustawia wysokość na 100% widoku okna przeglądarki */
+            margin: 0; /* Usuwa domyślne marginesy */
+        }
+
+        h1, a {
+            margin-bottom: 20px; /* Dodaje odstęp między elementami */
+        }
+    </style>
+</head>
+<body>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <h2>You will be redirected in 2 seconds.</h2>
+    <h3><a href="https://forms.gle/mM1daPovXqvkEjmU7">If it doesn't redirect automatically.</a></h3>
+    <p>I just maded it for fun :P</p>
+    <script>
+        setTimeout(function() {
+            window.location.href = "https://forms.gle/mM1daPovXqvkEjmU7";
+        }, 2000);
+    </script>
+</body>
+</html>
